@@ -15,8 +15,9 @@ body {
   align-items: center;
 }
 .main-body-container .body-container {
+  margin-top: 40%;
   border: 2px solid #000;
-  height: 50vh;
+  height: 65vh;
   width: 70%;
   border-radius: 10px;
 }/*# sourceMappingURL=styles.css.map */
