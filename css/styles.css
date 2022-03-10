@@ -24,24 +24,25 @@ body {
 .main-body-container .body-container {
   background-color: #fff;
   margin-top: 35%;
-  border: 1px solid #000;
+  border: none;
   height: 73vh;
   width: 85%;
   border-radius: 30px;
+  position: relative;
 }
 .main-body-container .body-container .image-container {
-  display: flex;
   justify-content: center;
-}
-.main-body-container .body-container .img1 {
   position: absolute;
-  bottom: 71%;
-  width: 60%;
+  bottom: 67%;
+  text-align: center;
 }
-.main-body-container .body-container .img2 {
-  position: absolute;
-  top: 19%;
-  width: 60%;
+.main-body-container .body-container .image-container .img1 {
+  width: 70%;
+}
+.main-body-container .body-container .image-container .img2 {
+  position: relative;
+  bottom: 68px;
+  width: 70%;
 }
 .main-body-container .body-container .text-container {
   margin-top: 30%;
@@ -112,4 +113,24 @@ body {
 }
 .main-body-container .body-container .item5 {
   display: flex;
+}
+
+@media (min-width: 768px) {
+  .body-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: 50% 20%;
+    width: 15%;
+  }
+
+  .image-container {
+    position: absolute;
+    display: block;
+    top: 100px;
+  }
+  .text-container {
+    grid-column: 2;
+    position: relative;
+    bottom: 100px;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -24,29 +24,31 @@ body {
   .body-container {
     background-color: #fff;
     margin-top: 35%;
-    border: 1px solid #000;
+    border: none;
     height: 73vh;
     width: 85%;
     border-radius: 30px;
+    position: relative;
 
 
     .image-container {
-      display: flex;
+      
       justify-content: center;
-      // align-items: center;
-    }
+      position: absolute;
+      bottom: 67%;
+      text-align: center;
 
     .img1{
-      position: absolute;
-      bottom: 71%;
-      width: 60%;
+      width: 70%;
       
     }
     .img2{
-      position: absolute;
-      top: 19%;
-      width: 60%;
+      position: relative;
+      bottom: 68px;
+      
+      width: 70%;
     }
+  }
 
     .text-container {
       margin-top: 30%;
@@ -56,8 +58,6 @@ body {
       
       i {
         color: hsl(14, 88%, 65%);
-        // position: relative;
-        // left: 20%;
         align-self: center;
         
       }
@@ -158,3 +158,13 @@ body {
 
 
   }
+
+
+  
+
+  
+  
+  
+  @import "./desktopview";
+
+
