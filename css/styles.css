@@ -4,10 +4,14 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: linear-gradient(#af67e9, #6565e7);
   height: 100vh;
-  font-size: 16px;
+  font-size: 12px;
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 400;
 }
@@ -21,8 +25,8 @@ body {
   background-color: #fff;
   margin-top: 35%;
   border: 1px solid #000;
-  height: 75vh;
-  width: 90%;
+  height: 73vh;
+  width: 85%;
   border-radius: 30px;
 }
 .main-body-container .body-container .image-container {
@@ -47,35 +51,65 @@ body {
 }
 .main-body-container .body-container .text-container i {
   color: #f47c57;
+  align-self: center;
+}
+.main-body-container .body-container .text-container .itm1 {
+  margin-left: 18%;
+}
+.main-body-container .body-container .text-container .itm2 {
+  margin-left: 18%;
+}
+.main-body-container .body-container .text-container .itm2-down {
+  margin-left: 18%;
+  display: none;
+}
+.main-body-container .body-container .text-container .itm3 {
+  margin-left: 36%;
+}
+.main-body-container .body-container .text-container .itm4 {
+  margin-left: 35%;
+}
+.main-body-container .body-container .text-container .itm5 {
+  margin-left: 24%;
 }
 .main-body-container .body-container .text-container h1 {
-  margin: 7% 14%;
+  margin: 10% 14%;
   text-align: center;
-  color: #4a4b5e;
-  font-weight: 700;
+  color: #1d1e35;
+  font-weight: bold;
+  font-size: 32px;
 }
 .main-body-container .body-container .text-container hr {
   margin-top: 15px;
   margin-bottom: 15px;
-  width: 50%;
+  width: 93%;
   background-color: #e7e7e9;
 }
-.main-body-container .body-container .text-container .item1 {
+.main-body-container .body-container .text-container .headings:hover {
+  color: #f47c57;
+}
+.main-body-container .body-container .item1 {
   display: flex;
 }
-.main-body-container .body-container .text-container .item2 .tem2 {
+.main-body-container .body-container .item2 .tem2 {
   display: flex;
 }
-.main-body-container .body-container .text-container .item2 .tem2 p {
-  color: #4a4b5e;
+.main-body-container .body-container .item2 .tem2 p {
+  color: #1d1e35;
   font-weight: 700;
 }
-.main-body-container .body-container .text-container .item3 {
+.main-body-container .body-container .item2 .tem2 p:hover {
+  color: #f47c57;
+}
+.main-body-container .body-container .item2 .item2-msg {
+  margin-top: 10px;
+}
+.main-body-container .body-container .item3 {
   display: flex;
 }
-.main-body-container .body-container .text-container .item4 {
+.main-body-container .body-container .item4 {
   display: flex;
 }
-.main-body-container .body-container .text-container .item5 {
+.main-body-container .body-container .item5 {
   display: flex;
 }/*# sourceMappingURL=styles.css.map */
