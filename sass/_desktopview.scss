@@ -4,7 +4,7 @@
   .body-container {
     display: grid;
     position: relative;
-    grid-template-columns: 50% 20%;
+    grid-template-columns: 50% 40%;
     width: 15%;
     // grid-template-rows: 50% 50% ;
   }
@@ -13,6 +13,7 @@
     position: absolute;
     display: block;
     top: 100px;
+    right: 50%;
 
   .img1 {
     // position: relative;
@@ -28,7 +29,40 @@
   .text-container {
     grid-column: 2;
     position: relative;
-    bottom: 100px;
+    // bottom: 40px;
   
+  }
+
+  h1 {
+    
+    color: red;
+
+  }
+
+  hr {
+    width: 15%;
+    height: 1px;
+  }
+
+
+  .itm1 {
+    margin-left: 90px;
+  }
+  .itm2 {
+    margin-left: 18%;
+    
+  }
+  .itm2-down {
+    margin-left: 18%;
+    display: none;
+  }
+  .itm3 {
+    margin-left: 36%;
+  }
+  .itm4 {
+    margin-left: 35%;
+  }
+  .itm5 {
+    margin-left: 24%;
   }
 }
